@@ -1,0 +1,5 @@
+g++ main.cpp  ManagerST/Student.cpp Dataaccess/StudentData.cpp -o main.exe
+
+g++ Tostring.cpp ../ManagerST/Student.cpp ../Dataaccess/StudentData.cpp -o Tostring.exe
+
+g++ Test/Export.cpp ManagerST/Student.cpp Dataaccess/StudentData.cpp Libs/Functionplus.cpp -o Export.exe

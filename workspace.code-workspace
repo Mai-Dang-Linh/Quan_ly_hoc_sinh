@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "ManagerST"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"string": "cpp"
+		}
+	}
+}
