@@ -16,5 +16,9 @@ int main()
     st.Push(student3);
     st.Push(student4);
 
-    cout <<st.To_String();
+    vector<Student> data=st.GetData();
+    for(Student i:data){
+        cout<< i.To_String()<<endl;
+    }
+        
 }

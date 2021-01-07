@@ -2,11 +2,11 @@
 #define Student_H_
 #include <iostream>
 #include <string>
-
+#include "../Libs/Functionplus.h"
 using namespace std;
 
 class Student{
-    int Id;
+    long _id;
     string _maSV;
     string _hoTen;
     string _ngaySinh;
@@ -20,6 +20,9 @@ public:
     string GetNgaySinh();
     string GetSex();
     int GetId();
+    void SetId(int);
+    string GetmaSV();
+
 
 };
 #endif

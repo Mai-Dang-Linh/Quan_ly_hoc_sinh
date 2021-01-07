@@ -15,8 +15,13 @@ public:
     string To_String();
     vector<Student> GetData();
     int GetMaxId();
-    int Push(Student);
+    void Add(Student student);
     int ExportToFile(string fileName);
-    Student* GetPointer();
+    Student* GetPointer(string i);
+    // void Save(string fileName);
+    int DeleteData(string k);
+    int Eddit(Student student);
+
+
 };
 #endif

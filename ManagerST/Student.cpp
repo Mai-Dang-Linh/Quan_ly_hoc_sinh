@@ -3,6 +3,7 @@
 Student::Student(){}
 Student::Student(string masv,string hoten, string ngaysinh,string sex)
 {
+
      _maSV = masv;
      _hoTen = hoten;
      _ngaySinh = ngaysinh;
@@ -12,15 +13,20 @@ string Student:: To_String()
 {
     string s("");
     s += "{";
-    s += "MaSv:" + _maSV + ",";
-    s += "HoTen:" + _hoTen + ",";
-    s += "Ngaysinh:" + _ngaySinh +",";
+    s += "Id :" + to_string(_id) + ", ";
+    s += "MaSv:" +_maSV + ", ";
+    s += "HoTen:" + _hoTen + ", ";
+    s += "Ngaysinh:" + _ngaySinh +", ";
     s += _sex;
     s += "}";
     return s;
 }
 int Student::GetId(){
-    return Id;
+    return _id;
+}
+void Student::SetId(int id)
+{
+    _id = id; 
 }
 string Student:: GetMaSv(){
     return _maSV;

@@ -5,6 +5,7 @@
 using namespace std;
 class Functionplus{
 public:
-    static string ReplaceAll(string s,const string& reach, const string& replace);
+    static string ReplaceAll(string s,const char& reach, const char& replace);
+    static string StringToUpper(string s);
 };
 #endif

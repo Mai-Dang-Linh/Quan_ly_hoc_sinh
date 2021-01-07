@@ -18,6 +18,26 @@ int main()
 
     cout<< studentdata.To_String();
     studentdata.ExportToFile("Studen.data");
+    string _maSV;
+    string _hoTen;
+    string _ngaySinh;
+    string _sex;
+
+    string s("");
+    cout << " Nhap information student: ";
+    cout << "Enter masv: ";
+    cin >> _maSV;
+    cout << "Enter hoten: ";
+    cin >> _hoTen;
+    cout << "Enter masv: ";
+    cin >> _ngaySinh;
+    cout << "Enter masv: ";
+    cin >> _sex;
+    
+    Student student(string _maSV,string _hoTen,string _ngaySinh,string _sex);
+    studentdata.Push(student);
+
+
 
 
 }
